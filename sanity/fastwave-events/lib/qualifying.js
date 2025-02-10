@@ -1,4 +1,4 @@
-import client from '../lib/sanity';
+import { client } from "./client";
 
 // Query for swimmer's best time in a specific event
 const getBestTimeForEvent = async (swimmerId, eventId) => {

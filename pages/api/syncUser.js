@@ -1,4 +1,4 @@
-import { client } from "../../lib/sanity";
+import { client } from "@/sanity/fastwave-events/lib/client";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") return res.status(405).end();
