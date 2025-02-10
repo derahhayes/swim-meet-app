@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { checkQualifyingTime } from '../lib/qualifying';
+import { checkQualifyingTime } from '@/sanity/fastwave-events/lib/qualifying'
 
 const SwimmerDetails = ({ swimmer, event, qualifyingTime }) => {
   const [isQualified, setIsQualified] = useState(null);
