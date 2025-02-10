@@ -5,9 +5,6 @@ import "../styles/global.css";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-
-
-
     <ClerkProvider
       frontendApi={process.env.NEXT_PUBLIC_CLERK_FRONTEND_API}
       navigate={(to) => window.history.pushState(null, '', to)}>
